@@ -29,7 +29,7 @@ app.get('/auth/facebook', passport.authenticate('facebook',{scope:['emails', 'ph
 })
 
 app.get('/auth/facebook/callback', passport.authenticate('facebook', {failureRedirect: '/login-fail'}), (req, res) => {
-    res.sendFile("fb-login.html", {root: "./public/pages"});
+        res.sendFile("fb-login.html", {root: "./public/pages"});
     }
 );
 

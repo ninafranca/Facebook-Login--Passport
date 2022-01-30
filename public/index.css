@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+#facebook-login {
+    background-color: #5980d6 !important;
+    color: white;
+}
